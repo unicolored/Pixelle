@@ -1,0 +1,37 @@
+{
+  "name": "Pixelle",
+  "version": "0.0.0",
+  "authors": [
+    "Gilles H <unicolored@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_compenents",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.6",
+    "json3": "~3.3.2",
+    "es5-shim": "~2.1.0",
+    "bootstrap": "3.3.0",
+    "angular-local-storage": "~0.1.5"
+  },
+  "devDependencies": {
+  },
+  "appPath": "dist",
+  "resolutions": {
+    "bootstrap": "3.3.0",
+    "es5-shim": ">=3.4.0",
+    "angular": "~1.2.11"
+  }
+}
