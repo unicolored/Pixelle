@@ -1,0 +1,34 @@
+body {
+  background:#ddd;
+  padding-top:80px
+}
+.l-demo-container {
+  background:#fff;
+  width: 480px;
+  margin: 0px auto 0px auto;
+  border:1px solid #ccc;
+}
+#drawing-canvas:hover {
+
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=67686);
+}
+
+
+
+.colorholder {
+  background:#ddd;
+  width: 480px;
+  height: 30px;
+  border: 0px solid #424547;
+  margin:10px auto;
+}
+
+#drawing-canvas {
+  border: 0px solid #999; }
+
+  .colorbox {
+    width: 30px;
+    height: 32px;
+    margin: 0px;
+    display: inline-block;
+    border: 0px solid black; }

@@ -1,0 +1,34 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/drawing.css" />
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Fichier <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#" id="newFile">Nouveau</a></li>
+            <li><a href="#" id="saveFile" download="my-file-name.png">Enregister</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="colorholder" class="colorholder"></div>
+  <div id="mycolorholder" class="colorholder hide"></div>
+  <div class="l-demo-container">
+
+    <canvas id="drawing-canvas" width="480" height="420"></canvas>
+    <!--<img src="" id="mirror" class="canvas__mirror" />-->
+  </div>
+
+  <script src="https://cdn.firebase.com/js/client/1.1.1/firebase.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/drawing.js"></script>
+</body>
+</html>
